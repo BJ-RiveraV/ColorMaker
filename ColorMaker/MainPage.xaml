@@ -43,13 +43,15 @@
                         <ImageButton Margin="10,0,0,0"
                                      HeightRequest="25"
                                      Source="copy.png"
-                                     WidthRequest="25"/>
+                                     WidthRequest="25"
+                                     Clicked="ImageButton_Clicked"/>
                         
                     </HorizontalStackLayout>
                 </Frame>
                 <Button x:Name="btnRandom"
                         BackgroundColor="{StaticResource Primary}"
-                        Text="Generate Random Color"/>
+                        Text="Generate Random Color"
+                        Clicked="btnRandom_Clicked"/>
             </VerticalStackLayout>
         </Frame>
     </Grid>
